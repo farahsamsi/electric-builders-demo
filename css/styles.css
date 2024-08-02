@@ -7,11 +7,24 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.main-content {
+    max-width: 1220px;
+    margin: 0 auto;
+
+    border: 2px solid blue;
+}
+
 
 /* navbar related styles starts */
-.navbar-wrapper{
+.navbar-wrapper {
     background-color: rgb(71, 85, 105);
 }
+
 .navbar-main {
     display: flex;
     justify-content: space-between;
@@ -21,7 +34,7 @@
     color: white;
 }
 
-.navbar-menu-button{
+.navbar-menu-button {
     background-color: black;
     color: white;
     padding: 5px;
@@ -31,9 +44,53 @@
     font-size: 1rem;
 }
 
-.navbar-menu-icon{
+.navbar-menu-icon {
     display: none;
 }
 
-
 /* navbar related styles ends */
+
+/* banner content related styles starts here */
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(242, 242, 242);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.banner-child {
+    width: 48%;
+}
+
+#banner-img-container{
+    position: relative;
+}
+
+.banner-child button {
+    background: none;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: .5rem;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.fifty-off{
+    background-color: rgba(0, 0, 0, 0.632);
+    color: white;
+    width: max-content;
+    padding: 10px 60px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+
+
+
+/* banner content related styles ends here */
