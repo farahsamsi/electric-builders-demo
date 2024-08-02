@@ -17,6 +17,18 @@
     .popular-main-container{
         grid-template-columns: repeat(2,1fr);
     }
+    .odvut-container{
+        min-height: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+    .odvut-container>div{
+        height: 20%;
+    }
+    .icon{
+        font-size: 2rem;
+        left: 47%;
+    }
 }
 
 
