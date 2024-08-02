@@ -14,8 +14,6 @@ img {
 .main-content {
     max-width: 1220px;
     margin: 0 auto;
-
-    border: 2px solid blue;
 }
 
 section{
@@ -96,12 +94,22 @@ section{
 
 
 /* popular collection section related styles starts */
+.popular-main-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    padding: .5rem;
+}
 .card-container{
     min-height: 200px;
     padding: 10px;
-    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.432);
+    box-shadow: 8px 8px 8px 2px rgba(0, 0, 0, 0.432);
     border-radius: 10px;
 }
-
- 
+.card-container>div:nth-child(1){
+    height: 270px;
+}
+.card-container img{
+    height: 100%;
+}
 /* popular collection section related styles ends */

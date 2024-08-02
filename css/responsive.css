@@ -14,6 +14,9 @@
     .fifty-off{
         left: 35%;
     }
+    .popular-main-container{
+        grid-template-columns: repeat(2,1fr);
+    }
 }
 
 
@@ -30,5 +33,8 @@
 
     .fifty-off{
         left: 15%;
+    }
+    .popular-main-container{
+        grid-template-columns: repeat(1,1fr);
     }
 }
