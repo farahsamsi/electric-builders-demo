@@ -4,6 +4,16 @@
         align-items: center;
         gap: 1rem;
     }
+
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-child {
+        width: 100%;
+    }
+    .fifty-off{
+        left: 35%;
+    }
 }
 
 
@@ -16,5 +26,9 @@
     }
     .navbar-main{
         flex-direction: row;
+    }
+
+    .fifty-off{
+        left: 15%;
     }
 }
