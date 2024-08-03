@@ -1,14 +1,18 @@
 @media screen and (max-width: 800px) {
-    .navbar-main{
+    .navbar-main, .form-container-main{
         flex-direction: column;
         align-items: center;
         gap: 1rem;
+    }
+    section{
+        padding: 0 .5rem;
     }
 
     .banner-container{
         flex-direction: column;
     }
-    .banner-child {
+    .banner-child, .form-image-container,
+    .form-content-container {
         width: 100%;
     }
     .fifty-off{
@@ -36,7 +40,7 @@
     .navbar-menu{
         display: none;
     }
-    .navbar-menu-icon{
+    .navbar-menu-icon, .form-content-container{
         display: block;
     }
     .navbar-main{
@@ -48,5 +52,15 @@
     }
     .popular-main-container{
         grid-template-columns: repeat(1,1fr);
+    }
+
+    .form-image-container{
+        height: auto;
+    }
+    .form-field {
+        width: 100%;
+    }
+    .form-content-container>div:nth-child(2){
+        margin-top: 1.25rem;
     }
 }
